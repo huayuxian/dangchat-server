@@ -14,7 +14,7 @@ trait FlywayInit {
     flyway.setLocations("sql.migration")
     flyway.setCallbacks(new BeforeCleanCallback())
     flyway.setBaselineOnMigrate(true)
-    //È¡ÏûÉı¼¶Ç°¶Ô.sqlÎÄ¼şµÄÑéÖ¤£¬Ö»Ö´ĞĞĞÂÔö¼ÓµÄ.sqlÎÄ¼ş
+    //å–æ¶ˆå‡çº§å‰å¯¹.sqlæ–‡ä»¶çš„éªŒè¯ï¼Œåªæ‰§è¡Œæ–°å¢åŠ çš„.sqlæ–‡ä»¶ã€‚
     //by Lining 2016/7/27
     flyway.setValidateOnMigrate(false)
     flyway
